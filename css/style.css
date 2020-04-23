@@ -1,0 +1,94 @@
+body {
+    font-family: 'Karla', sans-serif;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20vh;
+    width: 900px;
+    max-width: 80vw;
+}
+
+/* header */
+
+.header {
+    position: relative;
+    padding: 10px;
+}
+
+h1 {
+    font-family: 'Manrope', sans-serif;
+    word-wrap: normal;
+    font-size: 5em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 1.5em;
+}
+/* description style */
+
+.description {
+    padding-left: 10px;
+}
+
+.description p {
+    margin-top: 0.2em;
+    margin-bottom: 0.3em;
+}
+
+#small-p {
+    padding-top: 15px;
+    font-size: 1.3em;
+}
+
+/* description button */
+
+.description button {
+    background-color: transparent;
+    padding: 2px 2px 2px 0px;
+    border: none;
+    font-size: 1.5em;
+    outline: none;
+    text-decoration: none;
+}
+
+.description button:hover {
+    color: gray;
+	background-color:transparent;
+}
+
+/* links */
+
+a { 
+    font-family: 'Manrope', sans-serif;
+    text-decoration: none;
+    padding-bottom: 2px;
+    background-image: linear-gradient(rgba(255,0,0,0) 55%, #ffdab8 10%);
+    color: #000;
+}
+
+a:hover {
+    color: gray;
+}
+
+button {
+    font-family: 'Karla', sans-serif;
+}
+
+/* header links */
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.link {
+    font-size: 1.5em;
+    padding-right: 20px;
+}
