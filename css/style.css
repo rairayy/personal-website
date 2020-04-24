@@ -1,21 +1,49 @@
 body {
     font-family: 'Karla', sans-serif;
-}
-
-.container {
     margin-left: auto;
     margin-right: auto;
     margin-top: 20vh;
     width: 900px;
     max-width: 80vw;
+    color: rgb(46, 46, 46);
 }
 
 /* header */
 
 .header {
     position: relative;
-    padding: 10px;
 }
+
+/* footer */
+
+footer {
+    font-family: 'Karla', sans-serif;
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 1.3em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+    max-width: 80vw;
+    width: 900px;
+}
+
+footer div {
+    padding-bottom: 7px;
+}
+
+footer a {
+    font-family: 'Karla', sans-serif;
+    text-decoration: none;
+    padding-bottom: 2px;
+    background-image: none;
+}
+
+/* text */
 
 h1 {
     font-family: 'Manrope', sans-serif;
@@ -26,23 +54,17 @@ h1 {
     font-weight: 400;
 }
 
+h2 {
+    font-size: 3em;
+}
+
 p {
     font-size: 1.5em;
-}
-/* description style */
-
-.description {
-    padding-left: 10px;
+    line-height: 1.3em;
 }
 
-.description p {
-    margin-top: 0.2em;
-    margin-bottom: 0.3em;
-}
-
-#small-p {
-    padding-top: 15px;
-    font-size: 1.3em;
+b {
+    color: #f19b38;
 }
 
 /* description button */
@@ -67,12 +89,12 @@ a {
     font-family: 'Manrope', sans-serif;
     text-decoration: none;
     padding-bottom: 2px;
-    background-image: linear-gradient(rgba(255,0,0,0) 55%, #ffdab8 10%);
-    color: #000;
+    background-image: linear-gradient(rgba(255,0,0,0) 55%, #ffd88f 10%);
+    color: rgb(46, 46, 46);
 }
 
 a:hover {
-    color: gray;
+    color: #f19b38;
 }
 
 button {
@@ -85,10 +107,21 @@ button {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
 }
 
 .link {
     font-size: 1.5em;
     padding-right: 20px;
+}
+
+.link a {
+    background-image: none;
+    color: rgb(46, 46, 46);
+}
+
+.link a:hover {
+    color: #ffd88f;
 }

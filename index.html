@@ -4,38 +4,56 @@
         <meta name="description" content="Riana Lim, Computer Science student in the Philippines.">
         <meta name="author" content="Riana Lim">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/index-style.css"/>
         <link rel="stylesheet" href="./css/style.css"/>
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍞</text></svg>">
         <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Karla&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div class="container">
-            <div class="socials">
-                <div class="link"><a href="./about.html">About</a></div>
-                <div class="link"><a href="./assets/Resume 2020v2.pdf">Resume</a></div>
-                <div class="link"><a href="https://www.linkedin.com/in/riana-lim/">LinkedIn</a></div>
-                <div class="link"><a href="mailto:limriana9@gmail.com">Email</a></div>
-            </div>
-            <div class="header">
-                <h1>Hi, I'm Riana!</h1>
-            </div>
-            <div class="description">
-                <p>
-                    I am a 4th year Computer Science student at the Ateneo de Manila University in the Philippines.
-                    I believe that anyone can code and it’s my mission to make this skill accessible to the Filipino youth.
-                    I love to <a href="https://github.com/rairayy">code</a> and <a href="https://www.behance.net/limriana9d677/projects">design</a>.
+        <div class="socials">
+            <div class="link"><a href="./about.html">🍞 About</a></div>
+            <div class="link"><a href="./assets/Resume 2020v2.pdf">🥞 Resume</a></div>
+            <!-- <div class="link"><a href="https://www.linkedin.com/in/riana-lim/">LinkedIn</a></div> -->
+            <div class="link"><a href="mailto:limriana9@gmail.com">🧇 Email</a></div>
+        </div>
+        <div class="header">
+            <h1>Hi, I'm Riana! 🍞</h1>
+        </div>
+        <div class="description">
+            <p>
+                I am a 4th year Computer Science student at the Ateneo de Manila University in the Philippines.
+                I believe that anyone can code and it’s my mission to make this skill accessible to the Filipino youth.
+                I love to <a href="https://github.com/rairayy">code</a> and <a href="https://www.behance.net/limriana9d677/projects">design</a>.
+            </p>
+            <button id="more" onclick="toggleLong(this.id)">More</button>
+            <button id="less" onclick="toggleLong(this.id)" style="display: none;">Less</button>
+            <div id="description-long" style="display: none;">
+                <p id="small-p">
+                    I am currently the President of the <a href="https://www.compsat.org/">Computer Society of the Ateneo</a> where we strive to nurture competent leaders in software development.
+                    I enjoy <a href="https://codeforces.com/profile/rairay">solving problems</a> as a member of the ADMU Programming Varsity, and in my free time I like to <a href="https://twitter.com/rianalim_">doodle</a>.
+                    Feel free to <a href="mailto:limriana9@gmail.com">get in touch!</a> 🐣
                 </p>
-                <button id="more" onclick="toggleLong(this.id)">More</button>
-                <button id="less" onclick="toggleLong(this.id)" style="display: none;">Less</button>
-                <div id="description-long" style="display: none;">
-                    <p id="small-p">
-                        I am currently the President of the <a href="https://www.compsat.org/">Computer Society of the Ateneo</a> where we strive to nurture competent leaders in software development.
-                        I enjoy <a href="https://codeforces.com/profile/rairay">solving problems</a> as a member of the ADMU Programming Varsity, and in my free time I like to <a href="https://twitter.com/rianalim_">doodle</a>.
-                        Feel free to <a href="mailto:limriana9@gmail.com">get in touch!</a> 🐣
-                    </p>
-                </div>
             </div>
         </div>
+        <!-- <div class="works">
+            <h2>Things I've Made</h2>
+            <div class="things">
+                <div class="thing">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div> -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-        <script src="./script.js"></script>
+        <script src="./js/script.js"></script>
     </body>
+    <footer>
+        <div class="foot-left">
+            <div>Back to <a href="./index.html">top</a>?</div>
+            <div>Get <a href="mailto:limriana9@gmail.com">in touch</a>?</div>
+            <div>View my <a href="./assets/Resume 2020v2.pdf">resume</a>?</div>
+        </div>
+        <div class="foot-right">
+            <div>This website is by Riana Lim 🍪</div>
+        </div>
+    </footer>
 </html>

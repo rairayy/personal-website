@@ -9,12 +9,3 @@ function toggleLong(id) {
     }
     document.getElementById(id).style.display="none";
 }
-
-// $(document).ready(function(){
-//     $("#face").mouseover(function () {
-//         $(this).attr("src", "./assets/me.png");
-//     });
-//     $("#face").mouseout(function () {
-//         $(this).attr("src", "./assets/serious me.jpg");
-//     });
-// })
